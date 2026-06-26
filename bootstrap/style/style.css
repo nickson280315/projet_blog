@@ -1,0 +1,74 @@
+.redressed{
+    font-family:"Redressed",cursive;
+}
+.merriweather {
+    font-family:"merriweather",serif;
+}
+
+.navbar{
+    background-color:whitesmoke ;
+    font-family: "merriweather", serif;
+    box-shadow: 1px 1px 3px rgba(255,255, 255, 0.54) ;
+    z-index: 99;
+    
+} 
+.navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transform: padding-bottom , 4s ease-in-out, border-color ,3s ease;
+}
+.navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+    transition: 0.6s;
+    Color:var(--bs-teal);
+}
+
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(assets/Media/restaurant-.jpg) center center fixed
+    no-repeat;
+    height: 800px;
+    background-size: cover ;
+    
+}
+.card
+{
+    justify-content: space-between;
+    display: inline;
+}
+
+
+.banner .banner-desc{
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+
+}
+.btn-order{
+    color:var(--bs-teal);
+    border-color:var(--bs-teal);
+    transition: 0.5s;
+}
+
+.btn:hover,
+.btn:active {
+    color: #fff;
+    background-color:var(--bs-teal) ;
+
+}
+
+.cc-menu{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(assets/Media/tableau.jpg) center center no-repeat ;
+    height: 1400px;
+    background-size: cover;
+}
+
+.order-form {
+     background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(assets/Media/friends.jpg) center center no-repeat ;
+    height: 400px;
+    background-size: cover;
+}
+
+.texte
+{
+    height: 100px;
+}

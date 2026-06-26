@@ -222,7 +222,7 @@
                                     <div class="input-group-btn col-lg-2 col-2 pe-lg-0 pe-0">
                                         <a href="single.php?id=<?php echo $article_prev['Id_art']; ?>" class="btn btn-widget btnn" type="button"><i class="bi bii bi-arrow-left"></i></a>
                                     </div>
-                                    <div class="details col-lg-10 col-10 ps-4 ps-lg-0" >
+                                    <div class="details col-lg-10 col-10 ps-4 ps-lg-0" style="padding-right: 0.18rem;">
                                         <p class="mb-0"><small class="text_muted">Article précédent</small></p>
                                         <a href="single.php?id=<?php echo $article_prev['Id_art']; ?>" 
                                         class="lien text-decoration-none">

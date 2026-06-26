@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body
+<body>
 
     <header>
         <nav class="navbar navbar-expand-lg pt-0 pb-0">
